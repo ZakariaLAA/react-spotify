@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header__left{
+    background-color: white;
+    color: grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+    padding: 10px;
+    min-width: 65px;
+    
+
+}
+.header__icon{
+    flex-shrink: 1 !important;
+}
+.header__input{
+    border:none;
+    width: 100%;
+}
+
+.header__right{
+    margin-left:10px ;
+    display: flex;
+    align-items: center;
+
+}
+.header__right>h4{
+    margin-left: 10px;
+}
